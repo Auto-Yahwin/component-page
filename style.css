@@ -1,5 +1,13 @@
+@font-face{
+  font-family: specimen;
+  src:url(https://fonts.google.com/specimen/Inter);
+}
+
 body{
   background-color: hsl(233, 47%, 7%);
+  font-family: specimen;
+  font-size: 15px;
+  font-weight: 400, 700;
   width:100vw;
   height: 100vh;
   text-align: center;
@@ -16,6 +24,7 @@ body{
   height: auto;
   margin: 0px;
   border-radius: 5px 5px 0px 0px;
+  
 }
 
 header {
@@ -64,9 +73,7 @@ footer{
 
 @media screen and (min-width:1200px){
   .content{
-    font-size:160px;
-    font-weight:900px;
-    width: 85vw;
+    width: 1440px;
   }
 
 }
