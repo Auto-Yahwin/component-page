@@ -72,6 +72,10 @@ footer{
 }
 
 @media screen and (min-width:1200px){
+  body{
+    display: flex;
+  }
+  
   .content{
     width: 1440px;
   }
