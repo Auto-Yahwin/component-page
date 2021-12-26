@@ -79,5 +79,14 @@ footer{
   .content{
     width: 1440px;
   }
+  
+  img{
+    height: 100%;
+  }
+  
+  .content{
+    justify-content: center;
+    align-content: center;
+  }
 
 }
