@@ -74,10 +74,12 @@ footer{
 @media screen and (min-width:1200px){
   body{
     display: flex;
+    background-color: white;
   }
   
   .content{
     width: 1440px;
+    background-color: lightslategray;
   }
   
   img{
