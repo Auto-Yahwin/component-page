@@ -80,15 +80,13 @@ footer{
   .content{
     width: 1440px;
     background-color: lightslategray;
+    display: grid;
+    justify-content: center;
+    align-content: center;
   }
   
   img{
     height: 100%;
-  }
-  
-  .content{
-    justify-content: center;
-    align-content: center;
   }
 
 }
