@@ -87,8 +87,8 @@ footer{
   }
   
   .content{
-    width: 1440px;
-    height: auto;
+    /*width: 1440px;
+    height: auto;*/
     background-color: lightslategray;
     /*display: grid;*/
     grid-area: cont;
@@ -96,9 +96,4 @@ footer{
     align-content: center;
   }
   
-  img{
-    width: 1440px;
-    height: auto;
-  }
-
 }
