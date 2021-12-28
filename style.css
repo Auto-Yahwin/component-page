@@ -72,8 +72,8 @@ footer{
 @media screen and (min-width:1200px){
   body{
     display: grid;
-    grid-template-columns: 200px 375px;
-    grid-template-rows: min-max(500px, auto);
+    grid-template-columns: 720px 720px;
+    grid-template-rows: 720px;
     grid-template-areas: "cont head";
     background-color: white;
     height: 100vh;
