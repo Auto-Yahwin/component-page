@@ -28,10 +28,10 @@ body{
 }
 
 .header{
-  /*background-color: hsla(277, 64%, 61%);*/
-  background-image: url("mobile_img.jpg");
+  background-color: hsla(277, 64%, 61%);
+  /*background-image: url("mobile_img.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: contain;*/
   height: 50%;
   width: 1440px;
   border-radius: 5px 5px 0px 0px;
