@@ -84,6 +84,7 @@ footer{
   
   header{
     grid-area: head;
+    margin-top: 0px;
   }
   
   .content{
