@@ -69,36 +69,37 @@ footer{
   margin-top: 50px;
 }
 
-@media screen and (min-width:1200px){
+@media screen and (max-width:1200px){
   body{
     display: grid;
-    grid-template-columns: 720px 720px;
-    grid-template-rows: 600px;
+    /*grid-template-columns: 720px 720px;
+    grid-template-rows: 600px;*/
     grid-template-areas: "cont head";
     grid-gap: 0px;
     background-color: white;
     height: 100vh;
     width: 100vw;
-    margin: 0px;
     justify-content: center;
     align-content: center;
   }
   
   header{
     grid-area: head;
-    margin: 0px;
     min-height: 600px;
+    width:720px;
+    margin: 0px;
+    background-image: url("desktop_img.jpg");
   }
   
   .content{
-    /*width: 1440px;
-    height: auto;*/
+    width: 720px;
+    min-height: 600px;
     background-color: lightslategray;
-    display: grid;*/
+    display: grid;
     grid-area: cont;
-    margin: 0px;
     justify-content: center;
     align-content: center;
+    margin: 0px;
   }
   
 }
