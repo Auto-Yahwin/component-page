@@ -69,7 +69,7 @@ footer{
   margin-top: 50px;
 }
 
-@media screen and (max-width:1200px){
+@media screen and (min-width:1200px){
   body{
     display: grid;
     /*grid-template-columns: 720px 720px;
