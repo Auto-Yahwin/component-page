@@ -92,7 +92,7 @@ footer{
     min-height: 500px;
     max-width: 500px;
     margin-top: 1px;
-    margin-right: 70px;
+    margin-right: 100px;
     
   }
   
@@ -112,6 +112,6 @@ footer{
     align-content: center;
     margin: 0px;
     border-radius: 5px 0px 0px 5px;
-    margin-left: -70px;
+    margin-left: 0px;
   }
 }
