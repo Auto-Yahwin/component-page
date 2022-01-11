@@ -20,7 +20,7 @@ body{
 .content{
   background-color: hsl(244, 38%, 16%);
   color: white;
-  width: 375px;
+  width: 370px;
   height: auto;
   margin: 0px;
   border-radius: 0px 0px 5px 5px;
@@ -32,7 +32,7 @@ header{
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 275px;
-  width: 375px;
+  width: 370px;
   border-radius: 5px 5px 0px 0px;
   margin-top: 180px;
   margin-bottom: -5px;
@@ -76,7 +76,7 @@ footer{
   margin-top: 50px;
 }
 
-@media screen and (min-width:1200px){
+@media screen and (max-width:1200px){
   body{
     display: grid;
     grid-template-areas: "cont head";
@@ -92,7 +92,12 @@ footer{
     min-height: 600px;
     width:720px;
     margin: 0px;
-    
+  }
+  
+  img {
+    height: 600px;
+    border-radius: 5px 5px 0px 0px;
+    src: url(desktop-img.png);
   }
   
   .content{
