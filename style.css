@@ -23,19 +23,26 @@ body{
   width: 375px;
   height: auto;
   margin: 0px;
-  border-radius: 5px 5px 0px 0px;
+  border-radius: 0px 0px 5px 5px;
   
 }
 
 header{
-  background-color: hsla(277, 64%, 61%);
-  background-image: url("mobile_img.jpg");
+  background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 275px;
   width: 375px;
   border-radius: 5px 5px 0px 0px;
   margin-top: 180px;
+  margin-bottom: -5px;
+  
+}
+
+img{
+  filter: opacity(50%) drop-shadow(0 0 hsl(277, 64%, 61%)) brightness(100%);
+  height: 275px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 footer {
@@ -85,7 +92,7 @@ footer{
     min-height: 600px;
     width:720px;
     margin: 0px;
-    background-image: url("desktop_img.jpg");
+    
   }
   
   .content{
